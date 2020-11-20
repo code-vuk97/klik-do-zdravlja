@@ -1,0 +1,122 @@
+/******************************************************************************
+                    TAMNOZELENA        #172601
+                    ZELENA             #3e5902
+                    SVETLOZELENA       #77a612
+                    SVETLOZUTA         #edf2c2
+                    ZUTA               #ecf22e
+*****************************************************************************/
+*{
+    margin: 0;
+    padding: 0;
+    color: #172601;
+    text-decoration: none;
+    font-family: Montserrat;
+    
+}
+p{
+    line-height: 26px;
+}
+
+body{
+    background-image: url(fotke/poboljsana-pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #ecf22e;
+  }
+  
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+
+  /*nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      position: relative;
+      z-index: 99;
+      background-color: #3e5902;
+      margin-top: 64px;
+      margin-bottom: 64px;
+      width: 100%;
+  }
+
+  .meni-li{
+      display: inline-block;
+      list-style: none;
+      color: #ecf22e;
+      padding: 5px 10px;
+
+  }*/
+
+  #desna-strana {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 47%;
+      display: flex;
+      flex-direction: column;
+    align-items: center;
+  }
+
+  #recept-container{
+      background-color: #edf2c2;
+      padding: 4%;
+      margin-left: 15%;
+      margin-right: 15%;
+      align-items: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+
+  .logo{
+      position: fixed;
+      top:10%;
+      left:5.5%;
+      font-family: montserrat;
+      text-align: center;
+  }
+
+  .logo img {
+      width: 200px;
+      
+  }
+
+  .slika-hrane{
+      height: 250;
+      width: 400;
+      
+  }
+
+  .ime-recepta{
+      color: #77a612;
+  }
+
+  .tekst-recepta{
+      color: #3e5902;
+  }
