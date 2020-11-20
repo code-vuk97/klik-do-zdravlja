@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ecf22e;
+    font-family: 'Montserrat';
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  #main {
+    background-image: url("../img/poboljsana-pozadina.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  #leftSide {
+    width: 52.26%;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  
+  #logoAndTitle {
+    width: 350px;
+    text-align: center;
+  }
+  
+  #logoAndTitle h1 {
+    font-size: 3.8rem;
+    font-weight: normal;
+    font-family: 'Montserrat Alternates';
+  }
+  
+  #logo {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  
+  #logo img {
+    width: 100%;
+  }
+  
+  #rightSide {
+    width: 47.74%;
+    position: relative;
+  }
+  
+  #nav {
+    background-color: #77a612;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  #nav ul {
+    display: flex;
+  }
+  
+  #nav ul li a {
+    display: block;
+    padding: 13px 40px;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  #nav ul:nth-child(1) li a {
+    border-radius: 0 25px 25px 0;
+  }
+  
+  .active {
+    color: #77a612;
+    background-color: #ecf22e;
+  }
+  
+  #rightSideBody {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #rightSideBody h2 {
+    text-align: center;
+    width: 370px;
+    font-size: 4.6rem;
+    font-weight: normal;
+    font-family: 'Montserrat Alternates';
+    margin-top: 200px;
+    color : #77a612;
+  }
+  
+  #rightSideBody p {
+    font-family: 'Montserrat Alternates';
+    color: #77a612;
+    width: 500px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.4rem;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  #social {
+    margin-top: 150px;
+    width: 35%;
+  }
+  
+  #social ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #social ul li a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #77a612;
+    border-radius: 50%;
+  }
+  
+  #social ul li a i {
+    font-size: 1.2rem;
+  }
