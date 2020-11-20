@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #ecf22e;
+    text-align: center;
+    font-family: "Montserrat Alternates";
+  }
+
+/* /////////////////////////////////////////////////////////// */
+body,html{
+    height: 100%;
+}
+body, ul, li, h1, h2, a, table{
+  margin: 0;
+  padding: 0;
+    
+  }
+.bg{
+    background-image: url("img/poboljsana-pozadina.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-size: 16px;
+} 
+.uppercase {
+    text-transform: uppercase;
+
+  }
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    /* top: 0; */
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+}
+ .left{
+    top: 70%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}  
+
+.right{
+    /* flex-direction: column; */
+    right: 0;
+    left:52.2%; 
+    /* width: 60%;
+    position: relative; */
+           
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    
+  }
+  .logo{
+    position: fixed;
+    /*top:10px;
+    left:50px; */
+    font-family: montserrat;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px;
+    
+}
+
+ /* .centered img {
+    width: 200px;
+    
+  }  */
+  
+/* .title{
+    color: #ecf22e;
+    
+    font-size: 60px;
+    text-align: center;
+}  */
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* MENI                                                       */
+#nav ul {
+  list-style: none;
+  color: #ecf22e;
+}
+
+a {
+  text-decoration: none;
+  color: #ecf22e;
+}
+#nav {
+  background-color: #77a612;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.3);
+  
+}
+
+#nav ul {
+  display: flex;
+}
+
+#nav ul li a {
+  display: block;
+  padding: 13px 40px;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ecf22e;
+ 
+}
+
+#nav ul:nth-child(1) li a {
+  border-radius: 0 25px 25px 0;
+  
+}
+
+#nav .active {
+  color: #77a612;
+  background-color: #ecf22e;
+  border-radius: 0 25px 25px 0;
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+.container{
+  margin-top: 8%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: montserrat;
+  background-color: #edf2c2; 
+  padding: 20px;
+  color: #172601;
+  
+  
+}
+
+table {
+    
+    border-collapse:collapse ;
+    border-spacing: 0;
+    margin-bottom: 25%;
+    margin-right: 20%;
+    color: #172601;
+}
+.menu_kCal{
+    border: 5px solid #358000 ;
+    background-color:#358000 ;
+    width:50px;
+    color: #172601;
+}
+.kCal1{
+    border: 5px solid #C5FE9B ;
+    text-align: left;
+    background-color: #C5FE9B;
+    color: #172601;
+}
+.kCal2{
+    border: 5px solid #ACE771;
+    text-align: left;
+    background-color: #ACE771;
+    color: #172601;
+}
+.menu_product{
+    border: 5px solid #358000 ;
+    background-color:#358000 ;
+    width:350px;
+    text-align: left;
+    color: #172601;
+}
+.product1{
+    border: 5px solid #C5FE9B ;
+    width:350px;
+    text-align: left;
+    background-color: #C5FE9B;
+    color: #172601;
+
+}
+.product2{
+    border: 5px solid #ACE771;
+    width:250px;
+    text-align: left;
+    background-color: #ACE771;
+    color: #172601;
+}
