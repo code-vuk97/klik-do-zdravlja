@@ -118,8 +118,9 @@ a {
 
 #nav ul {
   display: flex;
+  align-items: center;
+  width: 85%;
 }
-
 #nav ul li a {
   display: block;
   padding: 13px 40px;

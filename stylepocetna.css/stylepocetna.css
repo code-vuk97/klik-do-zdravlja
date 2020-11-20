@@ -13,11 +13,17 @@
   a {
     text-decoration: none;
   }
-  
+  .nav-item {
+  height: 100%;
+  display: flex !important;
+  align-items: center;
+}
   .uppercase {
     text-transform: uppercase;
   }
-  
+  .header {
+    font-size: 48px !important;
+  }
   #main {
     background-image: url("../img/poboljsana-pozadina.jpg");
     height: 100vh;
@@ -46,10 +52,12 @@
   }
   
   #logo {
+    position: fixed;
+    top: 27%;
+    left: 4.5%;
+    font-family: 'Montserrat Alternates';
+    text-align: center;
     width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
   }
   
   #logo img {
