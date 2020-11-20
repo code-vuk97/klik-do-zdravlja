@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous" />
+    <title>Klik do zdravlja | Bmi Kalkulator</title>
+</head>
+
+<body>
+    <div class="bg">
+        <!-- Leva poovina -->
+        <div class="split left">
+            <div class="centered">
+                <img src="img/logo-novi.png" alt="Logo">
+                <h1 class="title">BMI<br>kalkulator</h1>
+            </div>
+        </div>
+        <!-- Desna polovina -->
+        <div class="split right">
+            <div id="nav">
+                <ul>
+                    <li>
+                        <a href="#" class="uppercase">Početna</a>
+                    </li>
+                    <li>
+                        <a href="#" class="uppercase">Recepti</a>
+                    </li>
+                    <li>
+                        <a href="#" class="uppercase active">Bmi kalkulator</a>
+                    </li>
+                    <li>
+                        <a href="#" class="uppercase">Kalorijska tablica</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text">
+                Izračunajte svoj <br>
+                indeks telesne težine
+            </div>
+            <div class="kalkulator">
+                <form id="forma">
+                    <label for="ages" class="ages" id="ages">Broj godina:</label>
+                    <input type="number" name="ages" id="ages"><br>
+                    <div class="gender_div">
+                        <div class="gender_label">
+                            <label for="gender" class="gender">Pol:</label>
+                        </div>
+                        <div class="gender_checkbox">
+                            <input type="checkbox" id="male" name="male" value="male">
+                            <label for="male">Muški</label><br>
+                            <input type="checkbox" id="female" name="female" value="female">
+                            <label for="female">Ženski</label><br>
+                        </div>
+                    </div>
+                    <label for="weight" class="weight">Tezina:</label>
+                    <input type="number" id=weight><br>
+                    <label for="height" class="height">Visina:</label>
+                    <input type="number" id=height><br>
+                    <div class="result">
+                        <label for="result">Vas BMI:</label>
+                        <input type="number" id=result readonly="readonly"><br>
+                    </div>
+                </form>
+                <input type="submit" class="submit" value="IZRAČUNAJTE" onclick="calculateBMI()"><br>
+                <input type="reset" class="reset" value="RESETUJ" onclick="resetuj()"><br>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
